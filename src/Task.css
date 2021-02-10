@@ -1,0 +1,54 @@
+.task{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+    margin-top: 50px;
+
+}
+
+.task__header{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+
+}
+.task__headerleft{
+    display: flex;
+    flex-direction: row;
+   
+}
+
+.task__headerleft>p{
+    margin-left: 10px;
+}
+
+.task__image{
+    display: flex;
+    height: 400px;
+    width: 100%;
+    align-items: center;
+    object-fit: contain;
+}
+.task__footer{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 10px;
+}
+.task__score{
+    display: flex;
+    
+
+}
+.task__score>p{
+    margin-right: 5px;
+    font-size: large;
+    font-weight: 600;
+}
+.task__score>input{
+    border-color: whitesmoke;
+    width: 90%;
+    height: 25px;
+    flex: 1;
+    font-size: large;
+
+}
