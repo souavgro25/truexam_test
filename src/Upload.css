@@ -1,18 +1,25 @@
 .upload{
     flex:1;
     background-color: #f9f9f9;
-    padding:10px 20px;
-    padding-bottom:0;
+    padding-left: 40px;
+    padding-right: 40px;
+    border-radius: 5px;
+    padding-bottom:30px;
+    
     
 }
 
 .upload__previous{
   display: flex;
   margin-top: 10px;
+  padding-left: 20px;
+  align-items: center;
+  flex:1;
 }
 
 .previous__Task{
     display: flex;
+    
     flex-wrap: wrap;
 }
 
@@ -20,34 +27,44 @@
     border: 1px solid lightgray;
     border-radius: 10px;
     height: 200px;
-    padding: 10px;
+  
     color :gray;
-    padding-left: 15px;
+    width: 100%;
 }
 
 .upload__Task >form{
+    padding-top: 5px;
     display: flex;
     width: 100%;
+    
+    
 }
 
 .upload__Task >form>input{
     border: none;
-    flex: 1;
+    border-radius: 5px;
+    width: 100%;
     outline-width: 0;
     font-weight: 600;
     font-size: medium;
 }
 .upload__Task >form>label{
     font-weight: 650;
-    padding-right: 5px;
-    
+    padding-right: 1px;
+    padding-left: 10px;
+    background-color: white;
+    border: 1px solid gray;
+    border-radius: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
 }
 
 .Task__Desc{
+    border-radius: 5px; 
     margin-top: 10px;
     border: none;
-    width: 90.5%;
-    height: 150px;
+    width: 90%;
+    height: 130px;
     flex: 1;
     margin-left: 10px;
     outline-width: 0;
@@ -63,13 +80,14 @@
 .title{
     text-transform: capitalize;
     font-weight: 600;
-    margin-left: 15px;
+   
     margin-top: 10px;
     margin-bottom: 10px;
+    padding-left: 2px;
 }
 
 .upload__button{
-  margin-left: 5px;
+  margin-right: 5px;
   padding: 8px 20px;
   border-radius: 4px;
   outline: none;

@@ -1,10 +1,11 @@
 import React from 'react'
 import SubmitTask from "./SubmitTask";
+import  "./Submits.css";
 
 function submits() {
     return (
-        <div>
-         <div className="upload__previous">
+        <div class ="upload">
+       
          <div className="previous__Task">
         <SubmitTask 
         image ="https://images.unsplash.com/photo-1554080353-a576cf803bda?ixid=MXwxMjA3fDB8MHxzZWFyY2h8NHx8cGhvdG9ncmFwaHl8ZW58MHx8MHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" 
@@ -36,7 +37,7 @@ function submits() {
         />
         
         </div></div>
-        </div>
+        
     )
 }
 

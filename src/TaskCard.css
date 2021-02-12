@@ -1,6 +1,7 @@
 .VideoCard{
     width: 270px;
     margin: 8x;
+    margin-top: 10px;
     margin-bottom:40px;
     background-color: whitesmoke;
     border-radius: 10px;
@@ -20,6 +21,7 @@
    .VideoCard__info{
        display: flex;
        margin-top: 10px;
+       margin-bottom: 10px;
        padding-right: 30px;
        justify-content: space-between;
        align-items: center;
